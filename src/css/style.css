@@ -1,0 +1,107 @@
+body{
+    background-color: var(--bg);
+    background-image: url(../images/bg-desktop.svg);
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.header{
+    padding: 40px;
+}
+
+.header .logo{
+    margin-left: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.main .section{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.main .section .info{
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+.main .section .info .main-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main .section .info .text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 490px;
+    margin-top: 15px;
+}
+
+.main .section .info .btn{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--bg);
+    width: 190px;
+    height: 44px;
+    border-radius: 500px;
+    border: none;
+    box-shadow: 1px 2px 4px #000;
+    margin-top: 15px;
+}
+
+.main .section .info .btn:hover{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    background-color: var(--soft);
+}
+
+.footer .social-networks{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 40px 20px;
+}
+
+.footer .social-networks .icon{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.footer .social-networks .icon-facebook{
+    background-image: url(../images/icon-facebook.svg);
+}
+
+.footer .social-networks .icon-facebook:hover, .icon-facebook:focus{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url(../images/icon-facebook-hover.svg);
+}
+
+.footer .social-networks .icon-twitter{
+    background-image: url(../images/icon-twitter.svg);
+}
+
+.footer .social-networks .icon-twitter:hover, .icon-twitter:focus{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url(../images/icon-twitter-hover.svg);
+}
+
+.footer .social-networks .icon-instagram{
+    background-image: url(../images/icon-instagram.svg);
+}
+
+.footer .social-networks .icon-instagram:hover, .icon-instagram:focus{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url(../images/icon-instagram-hover.svg);
+}
